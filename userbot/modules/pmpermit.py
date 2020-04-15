@@ -17,12 +17,12 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 UNAPPROVED_MSG = (
-    "`❌ANDA MEMASUKI KAWASAN IntanArap❌.`\n"
-    "`•Tunggu Sampai @IntanArap Melihat Ini!.`\n"
-    "`Sampai saat itu, tolong jangan spam PM saya ....`\n"
-    "`Terimakasih Semoga Anda mengerti`\n\n"
-    "`*Ini adalah pesan otomatis`\n"
-    "`💖IntanArap❌💖`")
+    "`❌Если это спам-вы будете .❌.`\n"
+    "`•Вы хотите написать моему мастеру.`\n"
+    "`Если это спам-вы будете .`\n"
+    "`заблокированы и на вас будет подана жалоба.`\n\n"
+    "`*Также, мастер сейчас АФК`\n"
+    "`💖thank you💖`")
 # =================================================================
 
 
@@ -71,8 +71,8 @@ async def permitpm(event):
 
                 if COUNT_PM[event.chat_id] > 4:
                     await event.respond(
-                        "`ANDA SUDAH MENGABAIKAN PERINGATAN ITUU!!.`\n"
-                        "`SAYA TIDAK SUKA ITU!! I AM BLOCK YOU!!❌`\n"
+                        "`ВЫ ИГНОРИРУЕТЕ, ЧТО ПРЕДУПРЕЖДАЕТЕ!!.`\n"
+                        "`Мне не нравится это !!  Я БЛОК ВАС!❌`\n"
                         "`Bye`"
                       )
 
